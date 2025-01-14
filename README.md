@@ -9,8 +9,10 @@
 
 ```bash
  npx @angular/cli@latest new icons-bug --no-create-application 
-cd icons-bug
+ cd icons-bug
  ng generate library tabler-icons
+
+ ng build tabler-icons
 
 ```
 
